@@ -10,11 +10,11 @@ CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     name text NOT NULL,
     type text NOT NULL
-)
+);
 
 
 INSERT INTO users (name, type)
-VALUES ('Jo', 'admin');
+VALUES ("Jo", "admin");
 
 -- INSERT INTO users
 -- (name, type)
